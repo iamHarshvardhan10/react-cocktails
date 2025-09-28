@@ -5,7 +5,7 @@ import { SplitText } from "gsap/all";
 import { useMediaQuery } from "react-responsive";
 const Hero = () => {
   const videoRef = useRef();
-  const videoTimelineRef = useRef();
+  //   const videoTimelineRef = useRef();
   const isMobile = useMediaQuery({ maxWidth: 767 });
   useGSAP(() => {
     const heroSplit = new SplitText(".title", { type: "chars , words" });
